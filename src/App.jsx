@@ -196,13 +196,16 @@ const StrategyTable = () => {
   return (
     <div
       style={{
-        padding: "30px",
+        padding: "10px",
         backgroundColor: "#f5f5f5",
         textAlign: "center",
       }}
     >
-      <Title level={1} style={{ textAlign: "center", marginBottom: "24px" }}>
+      <Title level={1} style={{ textAlign: "center", marginBottom: "10px" }}>
         LeaderBoards
+      </Title>
+      <Title level={3} style={{ textAlign: "left", marginBottom: "10px" }}>
+        Basic Backtest
       </Title>
       <Table
         columns={columns}
